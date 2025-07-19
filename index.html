@@ -1,2 +1,178 @@
 <!DOCTYPE html>
-<!-- HTML já pronto da Humanova aqui -->
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Humanova - Inteligência de Mercado</title>
+  <meta name="title" content="Humanova - Inteligência de Mercado">
+  <meta name="description" content="Consultoria de pesquisa e inteligência de mercado com foco em comportamento, arquitetura e branding">
+
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <!-- Substitua abaixo pelo logo da Humanova -->
+        <img src="LOGO-HUMANOVA-AQUI" width="170" height="40" alt="Humanova">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="#sobre" class="navbar-link">Sobre</a></li>
+          <li><a href="#servicos" class="navbar-link">Serviços</a></li>
+          <li><a href="#relatorios" class="navbar-link">Relatórios</a></li>
+          <li><a href="#contato" class="navbar-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Humanova</h1>
+            <p class="hero-subtitle">Inteligência de mercado com criatividade, comportamento e visão de futuro.</p>
+
+            <div class="hero-banner">
+              <!-- Substitua abaixo pela imagem de destaque -->
+              <img src="IMAGEM-DESTACADA-AQUI" width="800" height="800" alt="Humanova" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Ajudamos marcas, escritórios e empresas a entenderem as pessoas e os movimentos do mundo para agir com mais propósito e impacto.
+            </p>
+
+            <a href="#contato" class="btn has-before">
+              <span class="span">Fale com a gente</span>
+              <ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <p class="section-subtitle">Quem somos</p>
+          <h2 class="h2 section-title">Sobre a Humanova</h2>
+          <p class="section-text">
+            A Humanova é uma consultoria de inteligência de mercado com foco em comportamento, arquitetura, branding e consumo. Combinamos repertório, criatividade e ferramentas de pesquisa para responder a perguntas complexas com leveza e profundidade.
+          </p>
+        </div>
+      </section>
+
+      <section class="service" id="servicos" aria-labelledby="service-label">
+        <div class="container">
+          <div class="title-wrapper">
+            <div>
+              <p class="section-subtitle">O que fazemos</p>
+              <h2 class="h2 section-title" id="service-label">Nossos serviços</h2>
+            </div>
+            <p class="section-text">
+              Pesquisas, relatórios e consultorias para marcas, arquitetos, incorporadoras e empresas de comunicação.
+            </p>
+          </div>
+
+          <ul class="slider-container service-list" data-slider-container>
+            <li class="slider-item">
+              <div class="service-card">
+                <div class="card-icon"><ion-icon name="search-outline"></ion-icon></div>
+                <h3 class="h3 card-title">Pesquisa de Mercado</h3>
+                <p class="card-text">Entrevistas, desk research e análises para entender seu público e seu mercado.</p>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="service-card">
+                <div class="card-icon"><ion-icon name="bulb-outline"></ion-icon></div>
+                <h3 class="h3 card-title">Tendências e Insights</h3>
+                <p class="card-text">Relatórios temáticos e curadorias para guiar a inovação.</p>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="service-card">
+                <div class="card-icon"><ion-icon name="create-outline"></ion-icon></div>
+                <h3 class="h3 card-title">Consultoria Estratégica</h3>
+                <p class="card-text">Aplicação prática dos achados para posicionar sua marca com relevância.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="relatorios">
+        <div class="container">
+          <p class="section-subtitle">Publicações</p>
+          <h2 class="h2 section-title">Relatórios e tendências</h2>
+          <p class="section-text">
+            Acompanhe nossos lançamentos com análises sobre arquitetura, consumo e movimentos culturais. Em breve, novos relatórios disponíveis aqui.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container">
+          <p class="section-subtitle">Fale com a gente</p>
+          <h2 class="h2 section-title">Vamos conversar?</h2>
+          <p class="section-text">
+            Mande uma mensagem para contato@humanova.com.br ou preencha nosso formulário.
+          </p>
+          <a href="mailto:contato@humanova.com.br" class="btn has-before">
+            <span class="span">contato@humanova.com.br</span>
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li><p class="h4 footer-list-title">Contato</p></li>
+        <li><a href="mailto:contato@humanova.com.br" class="footer-link">contato@humanova.com.br</a></li>
+      </ul>
+
+      <ul class="footer-list">
+        <li><p class="h4 footer-list-title">Localização</p></li>
+        <li><a href="#" class="footer-link">Brasil</a></li>
+      </ul>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://www.instagram.com/humanova.com.br" class="social-link" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
